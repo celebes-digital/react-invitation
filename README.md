@@ -15,3 +15,18 @@ setelah kode di clone, tulis kode dibawah (ketik di terminal yang terbuka kode y
 setelah proses instalasi npm selesai, ketik 
 ```npm run dev```
 untuk menjalankan kode react
+
+# Membuat Widget atau Component
+untuk membuat komponent atau widget caranya sangat mudah, kalian harus membuat nya di folder ```src\components``` dengan format PascalCase dan ekstensi file ```.tsx```
+
+# export default NamaFunction()
+agar kode bisa di import ke segala file. tulis kode ini lalu tulis kode html seperti biasa dengan tailwind (namun ingat penulisan class di react adalah className="")
+```
+export default function NamaFunction() {
+	return (
+		<div>
+			<h1>Contoh HTML</h1>
+		</div>
+	);
+}
+```
