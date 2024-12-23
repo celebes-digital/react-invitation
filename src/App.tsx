@@ -1,9 +1,14 @@
 import Countdown from "./components/Countdown";
+import Galeri from "./components/Galeri";
 
 function App() {
     return (
 		<>
-			<Countdown/>
+			{/* Countdown Farreluken */}
+			{/* <Countdown/> */}
+
+			{/* Galeri */}
+			<Galeri/>
 		</>
     );
 }
